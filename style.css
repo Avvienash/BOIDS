@@ -82,9 +82,15 @@ button {
 
 /* Optional: Hover effect for buttons */
 button:hover {
-    background-color: #218838; /* Change this to your desired hover color */
+    background-color: #1d3f58; /* Change this to your desired hover color */
+    color: #537692; /* Change this to your desired text color */
+
 }
 
+button:active {
+    background-color: #537692; /* Change this to your desired color */
+    color: #163145;
+}
 
 @media (max-width: 1000px) {
     #container {
